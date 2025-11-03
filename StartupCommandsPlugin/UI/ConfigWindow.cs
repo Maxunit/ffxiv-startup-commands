@@ -2,8 +2,7 @@ namespace FfxivStartupCommands
 {
     using System;
     using System.Numerics;
-    using ImGuiNET;
-
+    using Dalamud.Bindings.ImGui;
 
     public class ConfigWindow : UIWindow
     {
@@ -123,3 +122,4 @@ namespace FfxivStartupCommands
     }
 
 }
+
