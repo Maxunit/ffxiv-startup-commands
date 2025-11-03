@@ -12,7 +12,7 @@ env:
   PUBLIC_NAME: StartupCommands
   SOLUTION_NAME: StartupCommandsPlugin
   INTERNAL_NAME: StartupCommands
-  RELEASE_DIR: StartupCommandsPlugin\bin\x64\Release\ZanarkandEmoteLog
+  RELEASE_DIR: StartupCommandsPlugin\bin\x64\Release\StartupCommandsPlugin
   PERSONAL_PLUGIN_REPO: Maxunit/MyDalamudPlugins
   PR_PLUGIN_REPO: Maxunit/DalamudPlugins
   DOTNET_CLI_TELEMETRY_OPTOUT: true
