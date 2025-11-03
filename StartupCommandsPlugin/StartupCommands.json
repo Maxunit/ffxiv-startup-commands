@@ -4,7 +4,7 @@
   "InternalName": "StartupCommands",
   "Description": "Perform various behaviors/commands right after logging into a character.",
   "Punchline": "Perform various behaviors/commands right after logging into a character.",
-  "AssemblyVersion": "1.3.0.0",
+  "AssemblyVersion": "1.3.0.1",
   "RepoUrl": "https://github.com/saltycog/ffxiv-startup-commands",
   "IconUrl": "https://github.com/saltycog/ffxiv-startup-commands/raw/master/icon.png",
   "DalamudApiLevel": 13
