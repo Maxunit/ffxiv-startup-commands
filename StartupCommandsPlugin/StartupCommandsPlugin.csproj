@@ -2,6 +2,7 @@
   <PropertyGroup>
     <Version>1.1.1</Version>
     <TargetFramework>net9.0</TargetFramework>
+    <DalamudManifestPath>..\Data\StartupCommands.json</DalamudManifestPath>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
     <AssemblyName>StartupCommands</AssemblyName>
