@@ -30,11 +30,11 @@ namespace FfxivStartupCommands
             try
             {
                 AtkUnitBase* chatLog = (AtkUnitBase*)Services.GameGui.GetAddonByName("ChatLog", 1);
-                
+				
                 if (chatLog != null)
                     return chatLog->IsVisible;
             }
-
+			
             catch (Exception)
             {
                 // Something went wrong getting the chat log information
@@ -71,7 +71,4 @@ namespace FfxivStartupCommands
             }
         }
     }
-
-    
-
 }
