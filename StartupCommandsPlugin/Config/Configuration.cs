@@ -1,4 +1,4 @@
-﻿namespace FfxivStartupCommands
+namespace FfxivStartupCommands
 {
     using Dalamud.Configuration;
     using Dalamud.Plugin;
@@ -19,9 +19,16 @@
             new Dictionary<string, CharacterConfiguration>();
 
         public string CurrentCharacter
-        {
-            get { return CharacterConfigurations[this.currentCharacter].CharacterName; }
-        }
+		{
+			get
+			{
+				if (this.currentCharacter == null)
+					return null;
+				
+				var config = GetCurrentCharacterConfiguration();
+				return config?.CharacterName;
+			}
+		}
 
         /// <summary>
         /// Custom chat commands to be executed upon successful character login.
