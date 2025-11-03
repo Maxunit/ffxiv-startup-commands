@@ -17,6 +17,8 @@ namespace FfxivStartupCommands
         /// Custom chat commands to be executed upon successful character login.
         /// </summary>
         public List<CustomCommand> CustomCommands { get; set; } = new List<CustomCommand>();
+
+        public string CharacterName { get; set; }
         #endregion
 
 
@@ -38,4 +40,5 @@ namespace FfxivStartupCommands
             public string Command { get; set; } = string.Empty;
         }
     }
+
 }
