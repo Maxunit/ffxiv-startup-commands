@@ -34,7 +34,7 @@ jobs:
     - name: Build
       run: |
         dotnet restore -r win ${{ env.SOLUTION_NAME }}.sln
-        dotnet build --configuration Release
+        dotnet build --configuration Release -a x64
     - name: Test
       run: |
         dotnet test --no-restore --verbosity normal
