@@ -1,8 +1,7 @@
 namespace FfxivStartupCommands
 {
     using System.Numerics;
-    using ImGuiNET;
-
+    using Dalamud.Bindings.ImGui;
 
     public abstract class UIWindow
     {
@@ -52,3 +51,4 @@ namespace FfxivStartupCommands
     }
 
 }
+
